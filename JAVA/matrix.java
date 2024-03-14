@@ -26,7 +26,7 @@ class matrix
 			System.out.println();
 		}
 	}
-	int[][] add(int[][] a,int[][] b,int m,int n,int p,int q)
+	int[][] add(int[][] a,int[][] b,int m,int n)
 	{
 		int[][] c = new int[10][10];
 		for(i=0;i<m;i++)
@@ -57,7 +57,7 @@ class matrix
 			b = m.insert(b,r2,c2);
 			m.display(b,r2,c2);
 			int c[][] = new int[10][10];
-			c = m.add(a,b,r1,c1,r2,c2);
+			c = m.add(a,b,r1,c1);
 			System.out.println("The sum is: ");
 			m.display(c,r1,c1);
 		}
