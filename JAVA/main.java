@@ -16,7 +16,7 @@ class main
 {
 	public static complex add(complex a1,complex a2)
 	{
-		complex a3 = new complex(1,2);
+		complex a3 = new complex(0,0);
 		a3.a = a1.a+a2.a;
 		a3.b = a1.b+a2.b;
 		return a3;
