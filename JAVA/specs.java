@@ -20,7 +20,7 @@ class specs
 		Scanner s = new Scanner(System.in);
 		cpu c = new cpu();
 		cpu.processor p = c.new processor(); 
-		ram r = new ram();
+		cpu.ram r = new cpu.ram();
 		System.out.print("Enter the CPU price: ");
 		c.price = s.nextInt();
 		System.out.println("Enter the processor cores and manufacturer:");
