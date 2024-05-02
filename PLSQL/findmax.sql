@@ -1,8 +1,4 @@
-DECLARE
-	a number;
-	b number;
-	c number;
-function findmax(x in number,y in number)
+create or replace function findmax(x in number,y in number)
 RETURN number is
 	z number;
 BEGIN
@@ -13,6 +9,11 @@ BEGIN
 	end if;
 	return z;
 END findmax;
+/
+DECLARE
+	a number;
+	b number;
+	c number;
 BEGIN
 	a := 23;
 	b := 45;
